@@ -57,4 +57,9 @@ backToTop.addEventListener("click", () => {
 
     });
 
-});lucide.createIcons();
+});lucide.createIcons();const menuToggle = document.getElementById("menu-toggle");
+const navbar = document.getElementById("navbar");
+
+menuToggle.onclick = () => {
+    navbar.classList.toggle("active");
+};
