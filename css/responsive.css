@@ -1,0 +1,451 @@
+/* Tablet */
+
+@media(max-width:992px){
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+}
+
+/* Small Mobile */
+
+@media(max-width:480px){
+
+}@keyframes scrollTech{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(-50%);
+
+    }
+
+}@media(max-width:992px){
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .section-heading h2{
+
+        font-size:36px;
+
+    }
+
+}@media(max-width:992px){
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}@media(max-width:992px){
+
+    .process-wrapper{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .process-line{
+
+        display:none;
+
+    }
+
+}@media(max-width:992px){
+
+    .results-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}@media(max-width:768px){
+
+    .cta-box{
+
+        padding:50px 25px;
+
+    }
+
+    .cta-box h2{
+
+        font-size:34px;
+
+    }
+
+}@media(max-width:768px){
+
+    .faq-question{
+
+        font-size:16px;
+
+        padding:20px;
+
+    }
+
+    .faq-answer p{
+
+        padding:0 20px 20px;
+
+    }
+
+}@media(max-width:992px){
+
+    .contact-wrapper{
+
+        grid-template-columns:1fr;
+
+    }
+
+}@media(max-width:992px){
+
+    .footer-top{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+    .footer-bottom{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+}@media (max-width:992px){
+
+.bento-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.bento-card.large,
+.bento-card.wide{
+
+grid-column:span 1;
+
+}
+
+}@media (max-width:992px){
+
+.services-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.service-card.featured,
+.service-card.wide{
+
+grid-column:span 1;
+
+}
+
+}@media (max-width:900px){
+
+.timeline::before{
+
+left:20px;
+
+}
+
+.timeline-item{
+
+width:100%;
+
+left:0 !important;
+
+padding-left:60px;
+
+padding-right:20px;
+
+text-align:left;
+
+}
+
+.timeline-item::before{
+
+left:9px !important;
+
+right:auto;
+
+}
+
+}@media(max-width:900px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.footer-bottom{
+
+flex-direction:column;
+
+gap:25px;
+
+text-align:center;
+
+}
+
+}/* ==========================================================
+   LARGE LAPTOPS (1400px and below)
+========================================================== */
+
+@media (max-width:1400px){
+
+    .hero-container{
+
+        max-width:1180px;
+
+        gap:4rem;
+
+        padding:0 2rem;
+
+    }
+
+}
+
+/* ==========================================================
+   LAPTOPS
+========================================================== */
+
+@media (max-width:1200px){
+
+    .hero-container{
+
+        grid-template-columns:1fr;
+
+        gap:4rem;
+
+        text-align:center;
+
+    }
+
+    .hero-left{
+
+        align-items:center;
+
+    }
+
+    .hero-description{
+
+        margin:auto;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-services{
+
+        justify-content:center;
+
+    }
+
+    .platforms{
+
+        justify-content:center;
+
+    }
+
+    .hero-right{
+
+        max-width:850px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+    .floating-seo{
+
+        left:-20px;
+
+    }
+
+    .floating-ads{
+
+        right:-20px;
+
+    }
+
+}
+
+/* ==========================================================
+   TABLETS
+========================================================== */
+
+@media (max-width:992px){
+
+    .hero{
+
+        padding-top:8rem;
+
+        min-height:auto;
+
+    }
+
+    .hero-title{
+
+        font-size:4rem;
+
+    }
+
+    .dashboard{
+
+        padding:1.5rem;
+
+    }
+
+    .analytics-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding:7rem 0 4rem;
+
+    }
+
+    .hero-container{
+
+        padding:0 1.2rem;
+
+    }
+
+    .hero-title{
+
+        font-size:3rem;
+
+        line-height:1;
+
+        letter-spacing:-2px;
+
+    }
+
+    .hero-description{
+
+        font-size:1rem;
+
+        line-height:1.7;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+    }
+
+    .hero-services{
+
+        gap:.6rem;
+
+    }
+
+    .hero-services span{
+
+        font-size:.8rem;
+
+    }
+
+    .analytics-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .progress-item{
+
+        grid-template-columns:90px 1fr;
+
+    }
+
+    .floating-card{
+
+        display:none;
+
+    }
+
+}
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width:480px){
+
+    .hero-title{
+
+        font-size:2.4rem;
+
+    }
+
+    .hero-badge{
+
+        font-size:.7rem;
+
+        padding:.65rem 1rem;
+
+    }
+
+    .dashboard{
+
+        padding:1rem;
+
+        border-radius:20px;
+
+    }
+
+    .browser-buttons span{
+
+        width:10px;
+
+        height:10px;
+
+    }
+
+}
